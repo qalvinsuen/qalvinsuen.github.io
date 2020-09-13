@@ -27,11 +27,19 @@ body {
   font-family: 'Fira Sans', sans-serif;
 } 
 
+/*img {
+  border-radius: 25%;
+}*/
 
+.icon {
+  width: 33%;
+}
+.buttons {
+  color: white;
+}
 
 .navbar {
   overflow: hidden;
-  
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
@@ -76,23 +84,22 @@ table,tr {
 }
 
 p {
-  border: solid red 10px;
-  margin-left: auto;
-  margin-right: auto;
+  /*border: solid red 10px;*/
+  /*margin-left: auto;
+  margin-right: auto;*/
   max-width: 80%;
 }
 
 tr {
-  border: solid red 10px;
+  /*border: solid red 10px;*/
 }
 
 td {
   width: 50%;
   text-align: center;
   height: 50%;
-  /*border: 1px solid black;*/
   padding: 25px 50px;
-  border: solid red 10px;
+  /*border: solid red 10px;*/
 }
 
 div{
@@ -104,7 +111,7 @@ div{
 .resize { 
   width: 50%; 
   height: 50%; 
-  object-fit: contain; 
+  object-fit: contain;
 } 
 
 .resize2 { 
@@ -133,7 +140,7 @@ div{
 
 .slide h1 {
   padding-top: 100px;
-  padding-left: 100px;
+  text-align: center;
 }
 
 /* Next & previous buttons */
@@ -200,12 +207,12 @@ div{
 }
 
 /* Fading animation */
-/*.fade {
+.fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 0.1s;
   animation-name: fade;
   animation-duration: 0.1s;
-}*/
+}
 
 @-webkit-keyframes fade {
   from {opacity: .4}
